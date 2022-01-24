@@ -1,0 +1,50 @@
+:root {
+    --main-color: #414d68;
+    --background-color: #787978;
+}
+
+body {
+    font-size: 18px;
+    background-color: var(--background-color);
+    font-family: 'Montserrat', sans-serif;
+}
+main {
+    display: flex;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 30px 15px;
+    justify-content: space-between;
+    background-color: #fff;
+}
+hr {
+    height: 1px;
+    background-color: #fff;
+}
+h1 {
+    font-size: 36px;
+    font-weight: 700;
+    margin: 10px 0;
+}
+img {
+    max-width: 270px;
+}
+.resume_left {
+
+}
+.mail {
+    display: flex;
+}
+img.social {
+    width: 50px;
+    height: 50px;
+}
+.resume_right {
+    width: 80%;
+    margin-left: 15px;
+}
+.info {
+    background-color: var(--main-color);
+    color: #fff;
+    margin-right: -15px;
+    padding: 10px;
+}
