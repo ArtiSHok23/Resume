@@ -3,7 +3,6 @@
     --background-color: #626462;
 }
 
-
 body {
     font-size: 15px;
     line-height: 1.25;
@@ -49,7 +48,7 @@ a {
     color: var(--main-color);
 }
 a:hover {
-    color: #63749b;
+    color: #7f94c5;
 }
 .resume_left {
     max-width: 260px;
@@ -169,4 +168,23 @@ ul.skills > li {
     position: absolute;
     top: 70%;
     left: 0px;
+}
+@media (max-width: 860px) {
+    main { 
+        margin: 0 auto;
+    }
+}
+@media (max-width: 650px) {
+    main { 
+        flex-direction: column-reverse;
+        padding: 0px;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .resume_right {
+        margin: 0;
+    }
+    .resume_left {
+        width: 100%;
+    }
 }
